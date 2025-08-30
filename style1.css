@@ -1,0 +1,528 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.logo {
+    max-width: 227px;
+    height: auto;
+}
+
+.breadcrumb {
+    margin-left: 20px;
+}
+
+.OurPortfolio {
+    padding: 30px 0;
+}
+
+.OurPortfolio h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 100px;
+}
+
+.OurPortfolio h1 span {
+    font-weight: bolder;
+    position: relative;
+}
+
+.OurPortfolio h1 span::after {
+    content: '';
+    position: absolute;
+    background-image: url(assets/images/underline2.png);
+    background-repeat: no-repeat;
+    height: 5px;
+    width: 100%;
+    top: 70px;
+    left: 0;
+}
+
+.OurPortfolio .cards {
+    gap: 4;
+}
+
+.Stages {
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card .cardlogo {
+    height: 28px;
+    width: 139px;
+}
+
+.OurPortfolio .card-title1 {
+    background-color: #0B60F71C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #0B60F7;
+    font-size: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.card a {
+    font-size: 14px;
+    color: #777F96;
+}
+
+.card {
+    padding: 20px;
+    position: relative;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 30px 0px #0000001F;
+    border-radius: 20px;
+}
+
+.est {
+    position: absolute;
+    font-size: 10px;
+    top: 15px;
+    right: 10px;
+}
+
+.img-group {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+
+.img-group img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 4px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.img-group .img-item2 {
+    top: 0;
+    right: -19px;
+    z-index: 10;
+}
+
+.img-group .img-item1 {
+    top: 0;
+    right: -39px;
+    z-index: 10000;
+}
+
+.OurPortfolio .card-title2 {
+    background-color: #FD5D5B1C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #FD5D5B;
+    font-size: 10px;
+}
+
+.OurPortfolio .card-title3 {
+    background-color: #1AB3EA1C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #1DB5E9;
+    font-size: 10px;
+}
+
+.cards {
+    row-gap: 32px;
+}
+
+.StageII-III {
+    padding: 30px 0;
+}
+
+.StageII-III .card-title1 {
+    background-color: #FE9F001A;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #FE9B00;
+    font-size: 10px;
+}
+
+.StageII-III .est {
+    position: absolute;
+    font-size: 10px;
+    top: 24px;
+    right: 10px;
+}
+
+.StageII-III .card-title2 {
+    background-color: #1640AD1C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #1543A9;
+    font-size: 10px;
+}
+
+.StageII-III .card-title3 {
+    background-color: #EF05341C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #F3002A;
+    font-size: 10px;
+}
+
+.StageII-III .card-title4 {
+    background-color: #8C00E21C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #8C00E2;
+    font-size: 10px;
+}
+
+.StageII-III .card-title5 {
+    background-color: #9AA4FC26;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #9AA4FC;
+    font-size: 10px;
+}
+
+.StageII-III .card-title6 {
+    background-color: #FA5C461C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #FA5C46;
+    font-size: 10px;
+}
+
+.stageIV {
+    padding: 30px 0;
+}
+
+.stageIV h1 {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.stageIV .card-title1 {
+    background-color: #4A4A4A1C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #393939;
+    font-size: 10px;
+}
+
+.stageIV .card-title2 {
+    background-color: #43D0FE1C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #42D4FB;
+    font-size: 10px;
+}
+
+.stageIV .card-title3 {
+    background-color: #58B33B1C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #48AB20;
+    font-size: 10px;
+}
+
+.stageIV .card-title4 {
+    background-color: #80078B1C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #8B0391;
+    font-size: 10px;
+}
+
+.stageIV .card-title5 {
+    background-color: #7CDD001C;
+    width: 75px;
+    text-align: center;
+    border-radius: 6px;
+    color: #7CDD00;
+    font-size: 10px;
+}
+
+.stageIV .card {
+    position: relative;
+}
+
+.stageIV .est {
+    position: absolute;
+    font-size: 10px;
+    top: 24px;
+    right: 10px;
+}
+
+.popup {
+    padding-block: 10px;
+
+}
+
+.popup .container {
+    height: 150px;
+    max-width: 990px;
+    background-color: #17D8B7;
+    color: white;
+    border-radius: 25px;
+    margin: 0 150px 0 150px;
+    position: relative;
+    z-index: 100;
+}
+
+.popup .popupContent {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popup .popupContent .content {
+    padding: 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.popup .popupContent .content:not(:last-child) {
+    border-right: 2px solid #FFFFFF;
+}
+
+
+.footer {
+    font-size: 11px;
+    background-color: #0A1534;
+    margin-top: -34px;
+
+}
+
+.footer .icon-group {
+    margin-left: 39px;
+    margin-top: 14px;
+}
+
+.footer .container {
+    max-width: 880px;
+    padding: 80px 3px 7px 74px;
+
+
+}
+
+.footer .container .Mailbox {
+    margin-left: 80px;
+}
+
+.footer .container .list1 li {
+    list-style: none;
+    color: white;
+    padding: 3px;
+}
+
+.footer .container .inpt2 {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: #0A1534;
+    outline: none;
+    color: white;
+    position: absolute;
+}
+
+.footer .container .inpt2::placeholder {
+    color: white;
+}
+
+.footer .container .arrow {
+    position: relative;
+    bottom: 0;
+    right: -116px;
+}
+
+.footer .bottom-bar {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    gap: 30px;
+}
+
+.footer .bottom-bar .last-item {
+    margin-left: 100px;
+}
+
+@media (min-width:991px) and (max-width:1200px) {
+    .popup .container {
+        height: 150px;
+        max-width: 800px;
+        margin: 0 150px 0 130px;
+    }
+}
+
+@media (min-width:767px) and (max-width:991px) {
+    .popup .container {
+        height: 150px;
+        max-width: 600px;
+        margin: 0 150px 0 130px;
+    }
+}
+
+@media (min-width:600px) and (max-width:767px) {
+    .main {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .OurPortfolio {
+        padding: 0;
+    }
+
+    .StageII-III {
+        padding: 50px;
+    }
+
+    .stageIV {
+        padding: 0 50px;
+    }
+
+    .popup .container {
+        height: 150px;
+        max-width: 450px;
+        margin: 0 100px 0 100px;
+    }
+
+    .popup .popupContent {
+        padding: 30px;
+    }
+
+    .popup .popupContent .content {
+        padding: 10px;
+    }
+
+    .popup .popupContent .content h6 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:599px) {
+    .main {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .OurPortfolio {
+        padding: 0;
+    }
+
+    .OurPortfolio h1 {
+
+        font-size: 34px;
+        padding: 40px;
+    }
+
+    .OurPortfolio h1 span::after {
+
+        top: 48px;
+        left: 0;
+    }
+
+    .Stages {
+        font-size: 24px;
+    }
+
+    .OurPortfolio .cards {
+        margin: 0;
+    }
+
+    .StageII-III {
+        padding: 10px;
+    }
+
+    .stageIV {
+        padding: 0 5px;
+        margin-bottom: 10px;
+    }
+
+    .popup {
+        padding: 10px 0;
+    }
+
+    .popup .container {
+        height: 100px;
+        max-width: 300px;
+        margin: 0 50px 0 50px;
+    }
+
+    .popup .popupContent {
+        padding: 5px;
+    }
+
+    .popup .popupContent .content {
+        padding: 10px;
+    }
+
+    .popup .popupContent .content h6 {
+        font-size: 10px;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
+
+    .footer .container {
+        padding: 20px;
+    }
+
+    .footer .container .Mailbox {
+
+        margin-left: 30px;
+    }
+
+    .footer .container .inpt2 {
+        position: absolute;
+    }
+
+    .footer .container .arrow {
+        position: relative;
+        bottom: 0;
+        right: -106px;
+    }
+
+    .footer .bottom-bar {
+        font-weight: 200;
+        font-size: 6px;
+        padding: 5px;
+        gap: 2px;
+    }
+    .footer .bottom-bar {
+        font-weight: 700;
+        font-size: 8px;
+        padding: 5px;
+        gap: 8px;
+    }
+    .footer .bottom-bar  .last-item{
+        margin-left: 0;
+    }
+
+}

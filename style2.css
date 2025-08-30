@@ -1,0 +1,375 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.navbar-brand {
+  width: 186px;
+}
+
+.breadcrumb {
+  margin-left: 108px;
+}
+
+.frame1 h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  padding: 100px;
+}
+
+.frame1 h1 span {
+  font-weight: bolder;
+  position: relative;
+}
+
+.frame1 h1 span::after {
+  content: "";
+  position: absolute;
+  background-image: url(assets/images/rectangle.png);
+  background-repeat: no-repeat;
+  height: 4px;
+  width: 100%;
+  top: 70px;
+  left: 0;
+}
+
+.block1 {
+  margin-left: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 90%;
+}
+
+.frame1 p span {
+  font-weight: bolder;
+}
+
+.block2 .ColumnImage {
+  margin-left: 10px;
+}
+
+.block2 .ColumnImage img {
+  height: 280px;
+  width: 300px;
+  position: relative;
+  z-index: 100;
+}
+
+.block2 .ColumnContent {
+  border-radius: 15px;
+  box-shadow: 0px 20px 30px 0px #0000001f;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  padding: 20px;
+}
+
+.block2 .ColumnContent p {
+  margin-left: 40px;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.FoundingPartners .container {
+  padding: 50px;
+}
+
+.FoundingPartners h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  padding: 100px;
+}
+
+.FoundingPartners h1 span {
+  font-weight: bolder;
+  position: relative;
+}
+
+.FoundingPartners h1 span::after {
+  content: "";
+  position: absolute;
+  background-image: url(assets/images/underline2.png);
+  background-repeat: no-repeat;
+  height: 5px;
+  width: 100%;
+  top: 70px;
+  left: 0;
+}
+
+.FoundingPartners .cards {
+  row-gap: 16px;
+}
+
+.FoundingPartners .card {
+  border: 0px solid #e5e7e8;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.FoundingPartners .card-body {
+  padding: 0px;
+}
+
+.FoundingPartners .card-text1 {
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 9px;
+  margin-bottom: 0px;
+}
+
+.FoundingPartners .card-text2 {
+  margin-top: 0px;
+  font-size: 9px;
+  margin-bottom: 0px;
+}
+
+.FoundingPartners .card-link {
+  float: right;
+  margin-top: -17px;
+  font-size: 11px;
+  color: black;
+}
+
+.FoundingPartners .card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0px 2.77px 2.21px 0px #00000005;
+}
+
+.OurTeam .row {
+  margin-bottom: 150px;
+}
+
+.OurTeam h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  padding: 100px;
+}
+
+.OurTeam h1 span {
+  font-weight: bolder;
+  position: relative;
+}
+
+.OurTeam h1 span::after {
+  content: "";
+  position: absolute;
+  background-image: url(assets/images/underline2.png);
+  background-repeat: no-repeat;
+  height: 5px;
+  width: 100%;
+  top: 70px;
+  left: 0;
+}
+
+.OurTeam .cards {
+  margin: 0 50px 25px 50px;
+}
+
+.OurTeam .card {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.OurTeam .card-body {
+  max-width: 180px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 10px;
+  position: relative;
+  margin-top: -19px;
+}
+
+.OurTeam .card-body .line {
+  width: 152px;
+}
+
+.OurTeam .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+}
+
+.OurTeam .email {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.OurTeam .card-title {
+  font-size: small;
+  font-weight: bolder;
+}
+
+.OurTeam .card-body h5 span {
+  text-transform: lowercase;
+}
+
+.OurTeam .card-body p span {
+  text-transform: lowercase;
+}
+
+.footer {
+  font-size: 11px;
+  background-color: #0a1534;
+  margin-top: 150px;
+}
+
+.footer .icon-group {
+  margin-left: 39px;
+  margin-top: 14px;
+}
+
+.footer .container {
+  max-width: 880px;
+  padding: 80px 3px 7px 74px;
+}
+
+.footer .container .row {
+  gap: 50px;
+}
+
+.footer .container .list1 li {
+  list-style: none;
+  color: white;
+  padding: 3px;
+}
+
+.footer .bottom-bar {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  gap: 30px;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .OurTeam .cards {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .OurTeam .cards {
+    gap: 20px;
+  }
+
+  .frame1 .block2 {
+    gap: 5px;
+    margin: 0;
+  }
+
+  .block2 .ColumnImage img {
+    position: relative;
+    z-index: 100;
+  }
+
+  .block2 .ColumnImage {
+    margin: 0;
+    padding: 0;
+  }
+
+  .block2 .ColumnContent {
+    margin-left: 170px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .frame1 h1 {
+    padding: 33px 33px 33px 0px;
+  }
+
+  .block1 {
+    margin: 0;
+    padding: 5px;
+  }
+
+  .block2 .ColumnImage {
+    padding: 0;
+  }
+
+  .block2 .ColumnContent {
+    padding: 5px;
+    margin: 0;
+  }
+
+  .block2 .ColumnContent p {
+    margin: 0;
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  .FoundingPartners .container {
+    padding: 5px;
+  }
+
+  .FoundingPartners h1 {
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .FoundingPartners h1 span::after {
+    top: 44px;
+    left: 0;
+  }
+
+  .FoundingPartners .cards {
+    row-gap: 30px;
+    padding: 5px;
+  }
+
+  .OurTeam h1 {
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .OurTeam .cards {
+    gap: 20px;
+  }
+
+  .OurTeam h1 span::after {
+    top: 53px;
+    left: 0;
+  }
+
+  .footer .container {
+    padding: 5px;
+  }
+
+  .footer .container .row {
+    gap: 50px;
+  }
+
+  .footer .container .lastcolumn {
+    margin-left: 30px;
+  }
+
+  .footer .container .lastcolumn p {
+    margin-bottom: 5px;
+  }
+
+  .footer .bottom-bar {
+    font-weight: 500;
+    font-size: 8px;
+    padding: 5px;
+    gap: 8px;
+  }
+}
